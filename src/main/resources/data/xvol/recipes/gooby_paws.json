@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "xvol:gooby_part"
+    }
+  },
+  "result": {
+    "item": "xvol:gooby_part_p"
+  }
+}

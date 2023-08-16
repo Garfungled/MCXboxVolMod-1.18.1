@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "H",
+    "B",
+    "P"
+  ],
+  "key": {
+    "H": {
+      "item": "xvol:gooby_part_h"
+    },
+    "B": {
+      "item": "xvol:gooby_part_b"
+    },
+    "P": {
+      "item": "xvol:gooby_part_p"
+    }
+  },
+  "result": {
+    "item": "xvol:gooby_uninteractable"
+  }
+}
