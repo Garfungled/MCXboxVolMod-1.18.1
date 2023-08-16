@@ -12,9 +12,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, XboxVolMod.MOD_ID);
 
-    public static final RegistryObject<Item> GOOBY = ITEMS.register("gooby_uninteractable",
+    public static final RegistryObject<Item> GOOBY_UNINTERACTABLE = ITEMS.register("gooby_uninteractable",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> RAW_GOOBY = ITEMS.register("raw_gooby",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
     public static void register(IEventBus eventBus){
