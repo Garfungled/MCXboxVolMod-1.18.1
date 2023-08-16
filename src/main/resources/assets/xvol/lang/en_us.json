@@ -6,5 +6,11 @@
   "item.xvol.gooby_part_b": "Gooby Body",
   "item.xvol.gooby_long_fac": "Gooby Long Fac",
   "item.xvol.gooby_part_p": "Gooby Paws",
-  "item.xvol.why_the_long_fac": "Why the long fac"
+  "item.xvol.why_the_long_fac": "Why the long fac",
+
+  "block.xvol.gooby_block": "Gooby Block",
+  "block.xvol.gooby_ore": "Gooby Ore",
+  "block.xvol.deepslate_gooby_ore": "Deepslate Gooby Ore",
+  "block.xvol.endstone_gooby_ore": "Endstone Gooby Ore",
+  "block.xvol.netherrack_gooby_ore": "Netherrack Gooby Ore"
 }

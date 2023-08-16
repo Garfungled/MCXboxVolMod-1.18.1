@@ -1,5 +1,6 @@
 package net.fishdrowned.xvol;
 
+import net.fishdrowned.xvol.block.ModBlocks;
 import net.fishdrowned.xvol.items.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class XboxVolMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

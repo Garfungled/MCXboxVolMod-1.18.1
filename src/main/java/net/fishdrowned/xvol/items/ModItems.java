@@ -14,7 +14,7 @@ public class ModItems {
 
     // Gooby Lore
     public static final RegistryObject<Item> GOOBY_UNINTERACTABLE = ITEMS.register("gooby_uninteractable",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)));
     public static final RegistryObject<Item> WHY_THE_LONG_FAC = ITEMS.register("why_the_long_fac",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> RAW_GOOBY = ITEMS.register("raw_gooby",
