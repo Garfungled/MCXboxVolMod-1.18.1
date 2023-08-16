@@ -1,6 +1,7 @@
 package net.fishdrowned.xvol.block;
 
 import net.fishdrowned.xvol.XboxVolMod;
+import net.fishdrowned.xvol.items.ModCreativeModeTab;
 import net.fishdrowned.xvol.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,20 +26,20 @@ public class ModBlocks {
     // Gooby Lore
     public static final RegistryObject<Block> GOOBY_BLOCK = registerBlock("gooby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
 
     public static final RegistryObject<Block> GOOBY_ORE = registerBlock("gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
     public static final RegistryObject<Block> DEEPSLATE_GOOBY_ORE = registerBlock("deepslate_gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
     public static final RegistryObject<Block> ENDSTONE_GOOBY_ORE = registerBlock("endstone_gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
     public static final RegistryObject<Block> NETHERRACK_GOOBY_ORE = registerBlock("netherrack_gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
 
 
 

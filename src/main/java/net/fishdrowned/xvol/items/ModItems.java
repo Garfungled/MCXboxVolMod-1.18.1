@@ -14,21 +14,21 @@ public class ModItems {
 
     // Gooby Lore
     public static final RegistryObject<Item> GOOBY_UNINTERACTABLE = ITEMS.register("gooby_uninteractable",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY).stacksTo(1)));
     public static final RegistryObject<Item> WHY_THE_LONG_FAC = ITEMS.register("why_the_long_fac",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY)));
     public static final RegistryObject<Item> RAW_GOOBY = ITEMS.register("raw_gooby",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY)));
     public static final RegistryObject<Item> GOOBY_PART = ITEMS.register("gooby_part",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY)));
     public static final RegistryObject<Item> GOOBY_PART_H = ITEMS.register("gooby_part_h",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // head
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // head
     public static final RegistryObject<Item> GOOBY_LONG_FAC = ITEMS.register("gooby_long_fac",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // long face
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // long face
     public static final RegistryObject<Item> GOOBY_PART_B = ITEMS.register("gooby_part_b",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // body
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // body
     public static final RegistryObject<Item> GOOBY_PART_P = ITEMS.register("gooby_part_p",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))); // paws
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // paws
 
 
     public static void register(IEventBus eventBus){
