@@ -1,6 +1,7 @@
 package net.fishdrowned.xvol.items;
 
 import net.fishdrowned.xvol.XboxVolMod;
+import net.fishdrowned.xvol.items.custom.ShrodingerCatItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -29,6 +30,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // body
     public static final RegistryObject<Item> GOOBY_PART_P = ITEMS.register("gooby_part_p",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // paws
+
+    //Shrodinger Lore
+    public static final RegistryObject<Item> SHRODINGER_CAT = ITEMS.register("shrodinger_cat",
+            () -> new ShrodingerCatItem(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_SHRODINGER).durability(1))); // Shrodinger cat
 
 
     public static void register(IEventBus eventBus){

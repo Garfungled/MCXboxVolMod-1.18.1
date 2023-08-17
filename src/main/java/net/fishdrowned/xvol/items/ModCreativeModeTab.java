@@ -10,4 +10,11 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.GOOBY_UNINTERACTABLE.get());
         }
     };
+
+    public static final CreativeModeTab XBOXVOL_TAB_SHRODINGER = new CreativeModeTab("xboxvol_tab_shrodinger") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.SHRODINGER_CAT.get());
+        }
+    };
 }

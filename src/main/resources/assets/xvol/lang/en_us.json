@@ -14,5 +14,11 @@
   "block.xvol.gooby_ore": "Gooby Ore",
   "block.xvol.deepslate_gooby_ore": "Deepslate Gooby Ore",
   "block.xvol.endstone_gooby_ore": "Endstone Gooby Ore",
-  "block.xvol.netherrack_gooby_ore": "Netherrack Gooby Ore"
+  "block.xvol.netherrack_gooby_ore": "Netherrack Gooby Ore",
+
+  "itemGroup.xboxvol_tab_shrodinger": "Shrödinger",
+  "item.xvol.shrodinger_cat": "Shrödingers Cat",
+
+  "tooltip.xvol.shrodinger_cat.tooltip.shift": "Drop to figure out if Milton is dead or alive.....",
+  "tooltip.xvol.shrodinger_cat.tooltip": "Press §eSHIFT§r for more information"
 }
