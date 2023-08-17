@@ -25,14 +25,14 @@ public class ModBlocks {
 
     // Gooby Lore
     public static final RegistryObject<Block> GOOBY_BLOCK = registerBlock("gooby_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
 
     public static final RegistryObject<Block> GOOBY_ORE = registerBlock("gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
     public static final RegistryObject<Block> DEEPSLATE_GOOBY_ORE = registerBlock("deepslate_gooby_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
     public static final RegistryObject<Block> ENDSTONE_GOOBY_ORE = registerBlock("endstone_gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),

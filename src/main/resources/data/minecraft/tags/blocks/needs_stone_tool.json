@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "xvol:gooby_ore",
+    "xvol:deepslate_gooby_ore",
+    "xvol:endstone_gooby_ore",
+    "xvol:netherrack_gooby_ore",
+    "xvol:gooby_block"
+  ]
+}
