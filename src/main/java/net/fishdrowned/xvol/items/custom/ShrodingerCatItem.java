@@ -48,12 +48,10 @@ public class ShrodingerCatItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        if(!pLevel.isClientSide()){
-            if(Screen.hasShiftDown()){
-                pTooltipComponents.add(new TranslatableComponent("tooltip.xvol.shrodinger_cat.tooltip.shift"));
-            }else{
-                pTooltipComponents.add(new TranslatableComponent("tooltip.xvol.shrodinger_cat.tooltip"));
-            }
+        if(Screen.hasShiftDown()){
+            pTooltipComponents.add(new TranslatableComponent("tooltip.xvol.shrodinger_cat.tooltip.shift"));
+        }else{
+            pTooltipComponents.add(new TranslatableComponent("tooltip.xvol.shrodinger_cat.tooltip"));
         }
     }
 }

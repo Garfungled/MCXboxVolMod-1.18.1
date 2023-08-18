@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "xvol:block/shrodinger_box_block_back",
+    "north": "xvol:block/shrodinger_box_block_front",
+    "south": "xvol:block/shrodinger_box_block_back",
+    "east": "xvol:block/shrodinger_box_block_side",
+    "west": "xvol:block/shrodinger_box_block_side",
+    "up": "xvol:block/shrodinger_box_block_top",
+    "down": "xvol:block/shrodinger_box_block_bottom"
+  }
+}

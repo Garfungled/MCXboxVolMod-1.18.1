@@ -1,6 +1,7 @@
 package net.fishdrowned.xvol.block;
 
 import net.fishdrowned.xvol.XboxVolMod;
+import net.fishdrowned.xvol.block.custom.ShrodingerBoxBlock;
 import net.fishdrowned.xvol.items.ModCreativeModeTab;
 import net.fishdrowned.xvol.items.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -40,6 +41,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHERRACK_GOOBY_ORE = registerBlock("netherrack_gooby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+
+    // Shrodinger Lore
+    public static final RegistryObject<Block> SHRODINGER_BOX_BLOCK = registerBlock("shrodinger_box_block",
+            () -> new ShrodingerBoxBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_SHRODINGER);
 
 
 
