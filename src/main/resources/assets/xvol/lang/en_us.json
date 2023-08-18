@@ -12,6 +12,11 @@
   "item.xvol.gooby_food": "Gooby Food",
 
   "block.xvol.gooby_block": "Gooby Block",
+  "block.xvol.gooby_stairs": "Gooby Stairs",
+  "block.xvol.gooby_slab": "Gooby Slab",
+  "block.xvol.gooby_wall": "Gooby Wall",
+  "block.xvol.gooby_fence": "Gooby Fence",
+  "block.xvol.gooby_fence_gate": "Gooby Fence Gate",
   "block.xvol.gooby_ore": "Gooby Ore",
   "block.xvol.deepslate_gooby_ore": "Deepslate Gooby Ore",
   "block.xvol.endstone_gooby_ore": "Endstone Gooby Ore",

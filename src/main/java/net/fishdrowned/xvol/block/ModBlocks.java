@@ -8,7 +8,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +27,21 @@ public class ModBlocks {
     // Gooby Lore
     public static final RegistryObject<Block> GOOBY_BLOCK = registerBlock("gooby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+    public static final RegistryObject<Block> GOOBY_STAIRS = registerBlock("gooby_stairs",
+            () -> new StairBlock(()-> ModBlocks.GOOBY_BLOCK.get().defaultBlockState(),BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+    public static final RegistryObject<Block> GOOBY_SLAB = registerBlock("gooby_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+    public static final RegistryObject<Block> GOOBY_FENCE = registerBlock("gooby_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+    public static final RegistryObject<Block> GOOBY_FENCE_GATE = registerBlock("gooby_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
+    public static final RegistryObject<Block> GOOBY_WALL = registerBlock("gooby_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_GOOBY);
 
     public static final RegistryObject<Block> GOOBY_ORE = registerBlock("gooby_ore",

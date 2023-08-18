@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "xvol:block/gooby_slab"
+    },
+    "type=double": {
+      "model": "xvol:block/gooby_block"
+    },
+    "type=top": {
+      "model": "xvol:block/gooby_slab_top"
+    }
+  }
+}
