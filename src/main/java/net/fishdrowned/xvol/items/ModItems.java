@@ -30,6 +30,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // body
     public static final RegistryObject<Item> GOOBY_PART_P = ITEMS.register("gooby_part_p",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // paws
+    public static final RegistryObject<Item> GOOBY_FOOD = ITEMS.register("gooby_food",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY).food(ModFoods.GOOBY_FOOD)));
 
     //Shrodinger Lore
     public static final RegistryObject<Item> SHRODINGER_CAT = ITEMS.register("shrodinger_cat",
