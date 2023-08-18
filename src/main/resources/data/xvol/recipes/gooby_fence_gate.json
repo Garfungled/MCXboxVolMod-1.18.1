@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "#C#"
+  ],
+  "key": {
+    "C": {
+      "item": "xvol:gooby_block"
+    },
+    "#": {
+      "item": "xvol:gooby_uninteractable"
+    }
+  },
+  "result": {
+    "item": "xvol:gooby_fence",
+    "count": 3
+  }
+}

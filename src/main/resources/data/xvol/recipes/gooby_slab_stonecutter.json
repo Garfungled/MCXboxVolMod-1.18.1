@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "xvol:gooby_block"
+  },
+  "result": "xvol:gooby_slab",
+  "count": 2
+}

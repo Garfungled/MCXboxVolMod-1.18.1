@@ -5,6 +5,11 @@
     "xvol:deepslate_gooby_ore",
     "xvol:endstone_gooby_ore",
     "xvol:netherrack_gooby_ore",
-    "xvol:gooby_block"
+    "xvol:gooby_block",
+    "xvol:gooby_stairs",
+    "xvol:gooby_slab",
+    "xvol:gooby_fence",
+    "xvol:gooby_fence_gate",
+    "xvol:gooby_wall"
   ]
 }
