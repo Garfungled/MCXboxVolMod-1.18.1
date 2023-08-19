@@ -31,11 +31,17 @@ public class ModItems {
     public static final RegistryObject<Item> GOOBY_PART_P = ITEMS.register("gooby_part_p",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY))); // paws
     public static final RegistryObject<Item> GOOBY_FOOD = ITEMS.register("gooby_food",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY).food(ModFoods.GOOBY_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_GOOBY).food(ModFoods.GOOBY_FOOD))); // cat food
 
-    //Shrodinger Lore
+    // Shrodinger Lore
     public static final RegistryObject<Item> SHRODINGER_CAT = ITEMS.register("shrodinger_cat",
             () -> new ShrodingerCatItem(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_SHRODINGER).durability(1))); // Shrodinger cat
+
+    // Ore Lore
+    public static final RegistryObject<Item> TORBERNITE_INGOT = ITEMS.register("torbernite_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_ORE)));
+    public static final RegistryObject<Item> RAW_TORBERNITE = ITEMS.register("raw_torbernite",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.XBOXVOL_TAB_ORE)));
 
 
     public static void register(IEventBus eventBus){

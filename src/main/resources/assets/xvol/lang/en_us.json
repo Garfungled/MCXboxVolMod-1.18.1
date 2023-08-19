@@ -29,5 +29,15 @@
   "block.xvol.shrodinger_box_block": "Shrödingers Box",
 
   "tooltip.xvol.shrodinger_cat.tooltip.shift": "Drop to figure out if Milton is dead or alive.....",
-  "tooltip.xvol.shrodinger_cat.tooltip": "Press §eSHIFT§r for more information"
+  "tooltip.xvol.shrodinger_cat.tooltip": "Press §eSHIFT§r for more information",
+
+
+  "itemGroup.xboxvol_tab_ore": "Ore Galore",
+
+  "item.xvol.torbernite_ingot": "Torbernite Ingot",
+  "item.xvol.raw_torbernite": "Raw Torbernite",
+
+  "block.xvol.raw_torbernite_block": "Block of Raw Torbernite",
+  "block.xvol.torbernite_block": "Block of Torbernite",
+  "block.xvol.torbernite_ore": "Torbernite Ore"
 }

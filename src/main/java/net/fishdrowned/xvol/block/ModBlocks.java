@@ -62,6 +62,16 @@ public class ModBlocks {
             () -> new ShrodingerBoxBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.XBOXVOL_TAB_SHRODINGER);
 
+    // Ore Lore
+    public static final RegistryObject<Block> RAW_TORBERNITE_BLOCK = registerBlock("raw_torbernite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_ORE);
+    public static final RegistryObject<Block> TORBERNITE_BLOCK = registerBlock("torbernite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_ORE);
+    public static final RegistryObject<Block> TORBERNITE_ORE = registerBlock("torbernite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.XBOXVOL_TAB_ORE);
 
 
     // Registries
