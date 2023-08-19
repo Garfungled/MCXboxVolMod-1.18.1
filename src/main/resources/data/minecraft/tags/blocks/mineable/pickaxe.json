@@ -10,6 +10,10 @@
     "xvol:gooby_slab",
     "xvol:gooby_fence",
     "xvol:gooby_fence_gate",
-    "xvol:gooby_wall"
+    "xvol:gooby_wall",
+
+    "xvol:torbernite_block",
+    "xvol:raw_torbernite_block",
+    "xvol:torbernite_ore"
   ]
 }

@@ -5,6 +5,9 @@
     "xvol:deepslate_gooby_ore",
     "xvol:endstone_gooby_ore",
     "xvol:netherrack_gooby_ore",
-    "xvol:gooby_block"
+    "xvol:gooby_block",
+    "xvol:torbernite_block",
+
+    "xvol:raw_torbernite_block"
   ]
 }
