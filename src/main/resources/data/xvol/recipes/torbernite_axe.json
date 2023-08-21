@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#S",
+    " S"
+  ],
+  "key": {
+    "#": {
+      "item": "xvol:torbernite_ingot"
+    },
+    "S": {
+      "item": "xvol:torbernite_stick"
+    }
+  },
+  "result": {
+    "item": "xvol:torbernite_axe"
+  }
+}
