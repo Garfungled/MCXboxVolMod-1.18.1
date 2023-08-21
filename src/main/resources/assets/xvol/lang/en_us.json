@@ -36,6 +36,11 @@
 
   "item.xvol.torbernite_ingot": "Torbernite Ingot",
   "item.xvol.raw_torbernite": "Raw Torbernite",
+  "item.xvol.torbernite_sword": "Torbernite Sword",
+  "item.xvol.torbernite_pickaxe": "Torbernite Pickaxe",
+  "item.xvol.torbernite_axe": "Torbernite Axe",
+  "item.xvol.torbernite_shovel": "Torbernite Shovel",
+  "item.xvol.torbernite_stick": "Torbernite Stick",
 
   "block.xvol.raw_torbernite_block": "Block of Raw Torbernite",
   "block.xvol.torbernite_block": "Block of Torbernite",

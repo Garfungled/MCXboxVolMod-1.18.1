@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "xvol:torbernite_ingot"
+    }
+  },
+  "result": {
+    "item": "xvol:torbernite_stick"
+  }
+}
